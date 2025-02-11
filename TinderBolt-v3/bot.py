@@ -42,7 +42,6 @@ async def hello(update, context):
     if dialog.mode == 'gpt':
         await gpt_dialog(update, context)
 
-
 # !
 #  region important - поки що прибираємо функцію  buttons_handler
 # async def buttons_handler(update, context):
